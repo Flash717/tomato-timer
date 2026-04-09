@@ -41,7 +41,7 @@ struct ContentView: View {
                 // Session label + dots
                 VStack(spacing: 10) {
                     Text(tomato.mode.rawValue)
-                        .font(.system(size: 15, weight: .regular, design: .serif))
+                        .font(.system(size: 18	, weight: .regular, design: .serif))
                         .italic()
                         .foregroundColor(tomato.mode.color)
                         .animation(.easeInOut, value: tomato.mode)
